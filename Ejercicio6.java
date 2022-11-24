@@ -10,6 +10,11 @@ public class Ejercicio6{
             num = sc.nextInt();
             array[i] = num;
         }
+        System.out.println("Array Original");
+        for(int i = 0; i<15; i++){
+            System.out.print(array[i]+" | ");
+        }
+        System.out.println("");
         int aux = array[14];
         for(int i = 14; i>0; i--){
             array[i] = array[i-1];
@@ -17,7 +22,7 @@ public class Ejercicio6{
         array[0] = aux;
         System.out.println("Array rotado hacia la derecha");
         for(int i = 0; i<15; i++){
-            System.out.print(array[i]+" ");
+            System.out.print(array[i]+" | ");
         }
     }
 }
