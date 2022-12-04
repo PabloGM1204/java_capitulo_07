@@ -1,5 +1,6 @@
 public class Ejercicio28{
     public static void main(String[] args) {
+        System.out.println("Este programa juega al busca el tesoro");
         // se definen constantes para representar el
         // contenido de las celdas
         final int VACIO = 0;
